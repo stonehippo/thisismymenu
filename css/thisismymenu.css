@@ -1,0 +1,4 @@
+html {color: #111; font-family: "Georgia", sans-serif;}
+body {width:80%; max-width:44em; margin:auto;}
+.dish {margin-bottom:1em;}
+.dish .name, .dish .description, .dish .price {}
