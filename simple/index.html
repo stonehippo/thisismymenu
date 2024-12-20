@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <title>{{restaurant_name}}</title>
     <link rel="stylesheet" href="/css/thisismymenu.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src="js/libs/head.min.js"></script>
   </head>
   <body>
     <section id="header" class="vcard">
@@ -60,5 +61,11 @@
     <section id="footer">
       <p>Copyright &copy; 2012 {{restaurant_name}}</p>
     </section>
+    <script>
+    head.ready(function() {
+        thisismymenu.init()
+    })
+    head.js('js/libs/jquery-1.9.0.min.js', 'js/thisismymenu.js')
+    </script>
   </body>
 </html>
